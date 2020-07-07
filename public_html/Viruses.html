@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>MICROBIOLOGY</title>
+</head>
+<body>
+  <div class="sidebar">
+    <a href="../index.html">Introduction</a>
+    <a href= "./bacteria.html">Bacteria</a>
+    <a href= "./fungi.html">Fungi</a>
+    <a class = "active" href= "./viruses.html">Viruses</a>
+    <a href= "./algae.html">Algae</a>
+    <a href= "./protozoa.html">Protozoa</a>
+    <a href= "./summary.html">Summary And Overview</a>
+    <a href= "./course_information.html">Course Information</a>
+
+  </div>
+  
+  <div class="content">
+      <!-- page content-->
+      <article class="covid">
+        <h2>Viruses</h2>
+        <section><h3>Introdunction</h3>
+            <p>Viruses are the smallest microorganisms found so far that can only live in living organisms.
+                Although they are so tiny, once they enter the host's cells, they will cause great damage.<br />
+                No matter animals or plants can't escape the virus attack, for example, common cold, herpes and
+                hepatitis are diseases caused by viruses. In the past two decades, the most serious disease, AIDS,
+                was caused by a virus called "HIV".
+                <br>
+                And Currently the Corona Virus, now declared a pandemic, is plagueing the world.
+            </p>
+        </section>
+
+        <section>
+            <h2>Virus Classification</h2>
+            <p>Viruses are not only divided into plant viruses, animal viruses and bacterial viruses. From the
+                structure, it is also divided into: single-stranded RNA virus, double-stranded RNA virus, single-stranded
+                DNA virus and double-stranded DNA virus
+            </p>
+        </section>
+        <section>
+            <h2>Virus Invading</h2>
+            <p>The virus invading the body may be caused by a sneeze or a physical contact. Viruses need to be parasitic
+                within living host cells, and rely on the host cells to provide the raw material system, energy, and location
+                required for virus replication. When a virus is ready to infect a host cell, it needs the following six steps
+                to complete its proliferation activities, namely adsorption, invasion, shelling, biosynthesis, assembly, and
+                release.
+            </p>
+        </section>
+        <section>
+            <h2>Future trends</h2>
+            <p>Although they are very harmful to organisms, because they can insert genetic material into the host,
+                viruses are now widely used for genetic engineering experiments.<br /> With the continuous development
+                of science and technology, microbiology has gradually become a major subject in biological research.
+                It is foreseeable that it is very important for the improvement of human well-being in the 21st century.
+            </p>
+        </section>
+        <section>
+            <h2>The Corona Virus Pandemic Effect</h2>
+            <p>
+                 The ongoing Corona Virus Outbreak has affected many areas of the world negatively. This could economically, socially etc.
+                <br>We would like to know how you have been affected by this pandemic, please fill in your details and tell us your situtaion.
+            </p>
+            <div class="container">
+                <form action="action_page.php" method="post">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for = "fname">
+                                First Name
+                            </label>
+                        </div>
+                        <div class = "col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your First Name ..">    
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for = "lname">
+                                Last Name
+                            </label>
+                        </div>
+                        <div class = "col-75">
+                            <input type="text" id="lname" name="firstname" placeholder="Your Last Name ..">    
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Country</label>   
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="India">India</option>
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="Australia">Australia</option>
+                            </select>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Subject</label>
+                            
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="write something .." ></textarea>
+                            
+                        </div>
+
+                        
+                    </div>
+                    <div class = "row">
+                        <input type="submit" value="Submit">
+                        
+                    </div>
+                </form>
+                        
+            </div>
+
+        </section>
+    </article>
+</div>  
+</body>
+</html>
